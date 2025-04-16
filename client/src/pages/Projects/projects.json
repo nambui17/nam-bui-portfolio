@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Automated Software Test Framework - Python",
+        "description": "An automated test framework for unit testing of Washer Disinfectors using Python",
+        "technologies": ["Python", "PyQt6", "Jama", "Jira", "Git"]
+    },
+    {
+        "title": "Chemical Reaction Kinetics Formulation Automation - Python/MATLAB",
+        "description": "A software tool to automate the formulation of Peracetic Acid chemistries by modeling the chemical reaction kinetics and predicting outcomes.",
+        "technologies": ["Python", "MATLAB", "Jama", "Jira", "Git", "PyQt6"]
+    },
+    {
+        "title": "ISO 15883 Scope Testing",
+        "description": "Laboratory scope testing of soil testing on endoscopes and cleaning efficacy of endoscope washer disinfectors.",
+        "technologies": ["Protein Assay", "UV-Vis", "TOC"]
+    },
+    {
+        "title": "Green Sterilant Formulation",
+        "description": "Development of a greener sterilant/disinfectant meant for use in washer disinfectors for cleaning endoscopes.",
+        "technologies": ["HPLC", "Titration", "DoE"]
+    }
+]
