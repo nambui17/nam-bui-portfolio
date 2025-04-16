@@ -7,6 +7,8 @@ export default function Home() {
         <Grid
             templateColumns="repeat(3, 1fr)"
             gap={6}
+            margin={"40px 40px 40px 40px"}
+            padding={"10px 10px 10px 10px"}
         >
             <GridItem colSpan={3} rowSpan={1}>
                 <Heading lang='vi'>Bùi Phương Nam</Heading>
@@ -18,7 +20,9 @@ export default function Home() {
                 placeItems="center">
                 <Image
                     src="/Nam-Bui.png"
-                    id='profile'>
+                    id='profile'
+                    borderRadius="10px"
+                    maxHeight="700px">
                 </Image>
                 </Box>
             </GridItem>
