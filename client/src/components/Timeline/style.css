@@ -1,0 +1,20 @@
+.timeline {
+    text-align: "left";
+}
+
+.timeline-time {
+    width: 150px;
+}
+
+.company {
+    font-weight: 700;
+}
+
+.description {
+    text-align: "left";
+    font-size: 12px;
+}
+
+.position {
+    color: #d8d8e6;
+}
