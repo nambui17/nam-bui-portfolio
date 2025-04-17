@@ -2,8 +2,7 @@ import {
     For,
     Tag,
     Card,
-    Image,
-    Button,
+    Image
 } from '@chakra-ui/react';
 
 import ExtDescDialog from '../ExtDescDialog';
