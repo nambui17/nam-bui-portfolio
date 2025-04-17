@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Automated Software Test Framework - Python",
+        "description": "An automated test framework for unit testing of Washer Disinfectors using Python",
+        "technologies": ["Python", "PyQt6", "Jama", "Jira", "Git"],
+        "image": {
+            "src": "@/assets/david-travis-WC6MJ0kRzGw-unsplash.jpg",
+            "alt": "Software Testing Image by David Travis from Unsplash https://unsplash.com/photos/person-holding-pink-sticky-note-WC6MJ0kRzGw?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash"
+        },
+        "extendedDescription": "This project involved the development and maintenance of an in-house Test Automation Framework at STERIS. My role was to integrate the test automation framework with CI/CD pipelines to allow for weekly testing of a set of tests. This project made use of Jama to hold test cases, Jira for agile development, Git for version control, and Azure DevOps Pipelines for the CI/CD."
+    },
+    {
+        "title": "Chemical Reaction Kinetics Formulation Automation - Python/MATLAB",
+        "description": "A software tool to automate the formulation of Peracetic Acid chemistries by modeling the chemical reaction kinetics and predicting outcomes.",
+        "technologies": ["Python", "MATLAB", "Jama", "Jira", "Git", "PyQt6"],
+        "image": {
+            "src": "@/assets/fulvio-ciccolo-e6eJWEKEGOE-unsplash.jpg",
+            "alt": "Chemical Reaction Kinetics Image by Fulvio Ciccolo from Unsplash https://unsplash.com/photos/a-glass-of-water-e6eJWEKEGOE?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash"
+        },
+        "extendedDescription": "I had noticed that my group at STERIS was spending a lot of time doing trial and error batch brewing for the reaction between hydrogen peroxide and acetic acid. I saw a chance to reduce and automate reaction formulation programmatically. The goal was to reasearch the kinetics of the reaction to form peracetic acid as it pertained to Cantel (now STERIS). The research used a redox titration to determine concentration of hydrogen peroxide and peracetic acid which was measured over the course of the reaction until it reached what was considered equilibrium. The forward and reverse rate constants of the reaction were extrapolated and then using a Runge-Kutta 4th Order Numerical Integration method, the multivariable differential equations were integrated to extrapolate the concentration of the components over time. This tool led to several patents and manufacturing/quality improvements."
+    },
+    {
+        "title": "ISO 15883 Scope Testing",
+        "description": "Laboratory scope testing of soil testing on endoscopes and cleaning efficacy of endoscope washer disinfectors.",
+        "technologies": ["Protein Assay", "UV-Vis", "TOC", "ISO 15883"],
+        "image": {
+            "src": "@/assets/Advantage-plus_01.jpg",
+            "alt": "Advantage Plus Washer Disinfector Image by STERIS Corporation https://www.steris.com/healthcare/products/sterilization-and-disinfection/automated-washer-disinfectors/advantage-plus-washer-disinfector?utm_source=google&utm_medium=cpc&utm_campaign=2023-Advantage-Plus-Search&utm_content=Advantage-Plus-Search&utm_term=advantage%20plus%20washer%20disinfector&gclid=Cj0KCQjw8b6lBhCVARIsAEN2r1vX4k7x5a9mJqZz0cW4nqYw1d7f2G5KXy3h8e6v4gk7i1p5s9t0xHkaAq2EEALw_wcB"
+        },
+        "extendedDescription": "Scopes were soiled with artificial test soils according to ISO 15883 and then cleaned using the Advantage Plus or Advantage Pass-Thru. The efficacy of the Advantage machines were to be determined during this project. The scope was then recovered per 15883 and tested for protein and TOC. Negative Controls, Low Level Positive Controls, High Level Positive Controls were used to determine the recovery rate of the recoverer. Upon proving recoverer efficacy, a clean run was run and the scope was recovered and tested for protein and TOC. Many different scope types (bronchoscopes, colonoscopes, duodenoscopes) were tested for cleaning efficacy by the Advantage Washer Disinfectors."
+    },
+    {
+        "title": "Green Sterilant Formulation",
+        "description": "Development of a greener sterilant/disinfectant meant for use in washer disinfectors for cleaning endoscopes.",
+        "technologies": ["HPLC", "Titration", "DoE", "Formulation", "Patent Application"],
+        "image": {
+            "src": "@/assets/green-chemistry.jpg",
+            "alt": "Image of chemical glassware on grass Green-Chemistry-6 by Flavio https://www.flickr.com/photos/37873897@N06/8277000022"
+        },
+        "extendedDescription": "A chemical buffer for an existing chemistry had a component that was soon going to be flagged by the EPA. A new 'greener' chemical buffer for Cantel's disinfectant was desired to both future proof the buffer and reduce environmental impacts. Research was done to replace a critical chemical component that controlled corrosivity of the combined disinfectant and buffer in use solution. A new buffer that used green surfactants and green corrosivity inhibitors was developed with comparable effects to existing product and a patent was applied for the buffer."
+    }
+]

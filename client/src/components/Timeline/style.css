@@ -8,13 +8,18 @@
 
 .company {
     font-weight: 700;
+    font-size: 24px;
+    padding: 5px 5px 5px 5px;
 }
 
 .description {
     text-align: "left";
-    font-size: 12px;
+    font-size: 16px;
+    padding: 5px 5px 5px 5px;
 }
 
 .position {
     color: #d8d8e6;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
 }
