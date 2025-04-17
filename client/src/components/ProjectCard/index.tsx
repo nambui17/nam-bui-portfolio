@@ -1,12 +1,14 @@
-import { For, Tag, Card } from '@chakra-ui/react';
+import {
+    For,
+    Tag,
+    Card,
+    Image,
+    Button,
+} from '@chakra-ui/react';
 
+import ExtDescDialog from '../ExtDescDialog';
+import { Project } from '@/types/index';
 import './style.css';
-
-type Project = {
-    title: string;
-    description: string;
-    technologies?: string[];
-}
 
 type Props = {
     project: Project;
@@ -16,6 +18,15 @@ export default function ProjectCard({ project }: Props) {
     const { title, description, technologies } = project;
     return (
         <Card.Root padding={4} margin={4}>
+            {
+                project.image ?
+                <Image
+                    src={project.image.src}
+                    alt={project.image.alt}
+                    maxHeight={200}
+                /> :
+                null
+            }
             <Card.Title>
                 {title}
             </Card.Title>
@@ -30,6 +41,12 @@ export default function ProjectCard({ project }: Props) {
                         </Tag.Root>
                     )}
                 </For>
+            </Card.Footer>
+            <Card.Footer>
+                <ExtDescDialog
+                    key={project.title}
+                    description={project.extendedDescription}
+                />
             </Card.Footer>
         </Card.Root>
     )
