@@ -23,7 +23,7 @@ export default function ExtDescDialog({ title, extDesc }: Props) {
             <Portal>
                 <Dialog.Backdrop />
                 <Dialog.Positioner>
-                    <Dialog.Content>
+                    <Dialog.Content className={"dialog"}>
                         <Dialog.Header>
                             <Dialog.Title className="extDiagHeader">{title}</Dialog.Title>
                         </Dialog.Header>
@@ -32,7 +32,7 @@ export default function ExtDescDialog({ title, extDesc }: Props) {
                         </Dialog.Body>
                         <Dialog.Footer>
                             <Dialog.ActionTrigger asChild>
-                                <Button variant="outline">Close</Button>
+                                <Button variant="outline" color={"black"} bg={"orange"}>Close</Button>
                             </Dialog.ActionTrigger>
                         </Dialog.Footer>
                         <Dialog.CloseTrigger asChild>

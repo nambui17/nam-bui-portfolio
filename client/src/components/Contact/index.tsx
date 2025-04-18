@@ -48,12 +48,12 @@ export default function Contact() {
             <Portal>
                 <Dialog.Backdrop />
                 <Dialog.Positioner>
-                    <Dialog.Content>
+                    <Dialog.Content className={"dialog"}>
                         <Dialog.Header>
                             <Dialog.Title className={"diaHeader"}>Contact Me</Dialog.Title>
                         </Dialog.Header>
                         <Dialog.Body>
-                            <VStack color={"black"} gap={20}>
+                            <VStack color={"black"} gap={10}>
                                 <HStack gap={40} justifyContent={"center"} alignItems={"center"}>
                                     <For each={contacts}>
                                         {(contact, index) => (
@@ -79,7 +79,7 @@ export default function Contact() {
                         </Dialog.Body>
                         <Dialog.Footer>
                             <Dialog.ActionTrigger asChild>
-                                <Button variant="outline">Close</Button>
+                                <Button variant="outline" color={"black"} bg={"orange"}>Close</Button>
                             </Dialog.ActionTrigger>
                         </Dialog.Footer>
                         <Dialog.CloseTrigger asChild>
