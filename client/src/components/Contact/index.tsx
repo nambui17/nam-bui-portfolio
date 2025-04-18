@@ -35,7 +35,7 @@ const contacts = [
 ]
 
 export default function Contact() {
-    const [open, setOpen] = useState(false)
+    const [, setOpen] = useState(false)
     const openContact = () => {
         setOpen(true);
     }
