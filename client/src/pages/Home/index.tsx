@@ -11,7 +11,7 @@ export default function Home() {
             padding={"10px 10px 10px 10px"}
         >
             <GridItem colSpan={3} rowSpan={1}>
-                <Heading lang='vi'>Bùi Phương Nam</Heading>
+                <Heading lang='vi' size={"3xl"}>Bùi Phương Nam</Heading>
             </GridItem>
             <GridItem colSpan={1} rowSpan={2}>
                 <Box
