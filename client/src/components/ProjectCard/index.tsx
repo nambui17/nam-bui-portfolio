@@ -5,7 +5,7 @@ import {
     Image
 } from '@chakra-ui/react';
 
-import ExtDescDialog from '../ExtDescDialog';
+import ExtDescDialog from '@/components/ExtDescDialog';
 import { Project } from '@/types/index';
 import './style.css';
 
@@ -43,8 +43,8 @@ export default function ProjectCard({ project }: Props) {
             </Card.Footer>
             <Card.Footer>
                 <ExtDescDialog
-                    key={project.title}
-                    description={project.extendedDescription}
+                    title={title}
+                    extDesc={project.extendedDescription}
                 />
             </Card.Footer>
         </Card.Root>
