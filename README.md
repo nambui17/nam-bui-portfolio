@@ -77,6 +77,7 @@
 * [![React][React.js]][React-url]
 * [![Vite][Vite.tsx]][Vite-url]
 * [![Go][Golang]][Go-url]
+* [![Vercel][Vercel]][Vercel-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,3 +214,5 @@ Project Link: [Nam's Portfolio](https://nam-bui-portfolio.vercel.app)
 [resume-screenshot]: assets/Resume-screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[Vercel]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
+[Vercel-url]: https://vercel.com/docs
