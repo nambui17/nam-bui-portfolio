@@ -8,13 +8,13 @@ import {
 import './style.css';
 
 type Props = {
-    key: string;
-    description: string;
+    title: string;
+    extDesc: string;
 }
 
-export default function ExtDescDialog({ key, description }: Props) {
+export default function ExtDescDialog({ title, extDesc }: Props) {
     return (
-        <Dialog.Root key={key} size={"lg"}>
+        <Dialog.Root size={"lg"}>
             <Dialog.Trigger asChild>
                 <Button variant="outline" size={"md"}>
                     Read More
@@ -25,12 +25,10 @@ export default function ExtDescDialog({ key, description }: Props) {
                 <Dialog.Positioner>
                     <Dialog.Content>
                         <Dialog.Header>
-                            <Dialog.Title>Dialog Title</Dialog.Title>
+                            <Dialog.Title className="extDiagHeader">{title}</Dialog.Title>
                         </Dialog.Header>
-                        <Dialog.Body>
-                            <p>
-                                {description}
-                            </p>
+                        <Dialog.Body className={"extDesc"}>
+                            {extDesc}
                         </Dialog.Body>
                         <Dialog.Footer>
                             <Dialog.ActionTrigger asChild>

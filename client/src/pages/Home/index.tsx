@@ -30,7 +30,7 @@ export default function Home() {
                 <Timeline />
             </GridItem>
             <GridItem colSpan={3} rowSpan={1}>
-                <Text textAlign={"left"} fontSize={"20px"} fontWeight={"bold"}>
+                <Text textAlign={"left"} fontSize={"20px"}>
                     Hi my name is Nam and I am an R&D Software Automation Engineer
                     currently working at STERIS. I am experienced in test automation
                     frameworks, web development, and continuous integration. As a former

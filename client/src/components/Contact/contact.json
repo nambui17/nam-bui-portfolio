@@ -1,0 +1,18 @@
+[
+    {
+        "href": "www.linkedin.com/in/nam-bui-8887b8131",
+        "name": "LinkedIn",
+        "icon": ["fa-brands", "fa-linkedin"]
+    },
+    {
+        "href": "https://github.com/nambui17",
+        "name": "GitHub",
+        "icon": ["fa-brands", "fa-github"]
+    },
+    {
+        "href": "mailto:nam.bui17@icloud.com",
+        "name": "Email",
+        "icon": ["fa-solid", "fa-envelope"]
+    }
+    
+]
