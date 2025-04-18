@@ -177,7 +177,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Nam Bui - nam.bui17@icloud.com - +1(612)860-5784
 
-Project Link: [https://github.com/nambui17/nam-bui-portfolio](https://github.com/nambui17/nam-bui-portfolio)
+Project Link: [Nam's Portfolio](https://nam-bui-portfolio.vercel.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
